@@ -1,10 +1,25 @@
 @import "./base";
 @import "./abstract/mixin";
-@import "./layout/navbar";
+
+// Page Home
 @import "./pages/home/showcase";
 @import "./pages/home/stats";
 @import "./pages/home/cli";
 @import "./pages/home/cloud";
 @import "./pages/home/languages";
+
+// Page Feature
+@import "./pages/features/head";
+@import "./pages/features/main-content";
+
+// Page Docs
+@import "./pages/docs/head";
+@import "./pages/docs/main-content";
+
+// Layouts
+@import "./layout/navbar";
 @import "./layout/footer";
+
+
 @import "./responsive";
+@import "./utilities";

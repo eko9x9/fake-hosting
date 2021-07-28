@@ -75,8 +75,44 @@
     }
 }
 
+/* Alert */
+.alert {
+    background-color: $light-color;
+    padding: 10px 20px;
+    font-weight: bold;
+    margin: 15px 0;
+
+    i {
+        margin-right: 10px;
+    }
+
+    &--success {
+        background-color: $success-color;
+        color: #fff;
+    }
+    
+    &--error {
+        background-color: $error-color;
+        color: #fff;
+    }
+}
 
 /* Text Sizes */
+.text-primary {
+    color: $primary-color !important;
+}
+
+.text-dark {
+    color: $dark-color !important;
+}
+
+.text-light {
+    color: $light-color !important;
+}
+
+.text-secondary {
+    color: $secondary-color !important;
+}
 
 .lead {
     font-size: 20px;
