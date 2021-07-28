@@ -1,10 +1,6 @@
 import React, { ReactElement } from 'react'
 
-interface Props {
-    
-}
-
-export default function ShowCase({}: Props): ReactElement {
+export default function ShowCase(): ReactElement {
     return (
         <section className="showcase">
             <div className="container grid">

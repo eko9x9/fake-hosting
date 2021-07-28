@@ -2,11 +2,7 @@ import React, { ReactElement } from 'react';
 import Image from 'next/image';
 import CliImg from "../../assets/images/cli.png"
 
-interface Props {
-    
-}
-
-export default function Cli({}: Props): ReactElement {
+export default function Cli(): ReactElement {
     return (
         <section className="cli">
             <div className="container grid grid--3">

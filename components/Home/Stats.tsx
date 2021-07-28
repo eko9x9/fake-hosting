@@ -1,10 +1,6 @@
 import React, { ReactElement } from 'react';
 
-interface Props {
-    
-}
-
-export default function Stats({}: Props): ReactElement {
+export default function Stats(): ReactElement {
     return (
         <section className="stats">
             <div className="container">

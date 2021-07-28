@@ -5,13 +5,8 @@ import PythonImg from "../../assets/images/logos/python.png";
 import GoImg from "../../assets/images/logos/go.png";
 import RubyImg from "../../assets/images/logos/ruby.png";
 import PhpImg from "../../assets/images/logos/php.png";
-import Link from "next/link";
 
-interface Props {
-    
-}
-
-export default function Languages({}: Props): ReactElement {
+export default function Languages(): ReactElement {
     return (
         <section className="languages">
             <h2 className="md text-center my-2">

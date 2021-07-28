@@ -2,11 +2,7 @@ import React, { ReactElement } from 'react';
 import Image from "next/image";
 import CloudImg from "../../assets/images/cloud.png"
 
-interface Props {
-    
-}
-
-export default function Cloud({}: Props): ReactElement {
+export default function Cloud(): ReactElement {
     return (
         <section className="cloud bg-primary my-2">
             <div className="container grid">
