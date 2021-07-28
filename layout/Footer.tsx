@@ -1,10 +1,6 @@
 import React, { ReactElement } from 'react'
 
-interface Props {
-    
-}
-
-export default function Footer({}: Props): ReactElement {
+export default function Footer(): ReactElement {
     return (
         <footer className="footer bg-dark py-4">
             <div className="container grid grid--3">

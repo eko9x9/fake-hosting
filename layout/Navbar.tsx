@@ -1,10 +1,7 @@
 import React, { ReactElement } from 'react'
+import Link from "next/link";
 
-interface Props {
-    
-}
-
-function Navbar({}: Props): ReactElement {
+function Navbar(): ReactElement {
     return (
         <div className="navbar">
             <div className="container flex">
@@ -12,13 +9,19 @@ function Navbar({}: Props): ReactElement {
                 <nav>
                     <ul>
                         <li>
-                            <a href="/" className="">Home</a>
+                            <Link href="/">
+                                <a>Home</a>
+                            </Link>
                         </li>
                         <li>
-                            <a href="/" className="">Features</a>
+                            <Link href="/features">
+                                <a>Features</a>
+                            </Link>
                         </li>
                         <li>
-                            <a href="/" className="">Docs</a>
+                            <Link href="/documentation">
+                                <a>Docs</a>
+                            </Link>
                         </li>
                     </ul>
                 </nav>
