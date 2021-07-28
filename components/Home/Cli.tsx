@@ -10,7 +10,7 @@ export default function Cli({}: Props): ReactElement {
     return (
         <section className="cli">
             <div className="container grid grid--3">
-                <Image src={CliImg} />
+                <Image src={CliImg} alt="install" />
                 <div className="card">
                     <h3>Ease to use, Cross platform CLI</h3>
                 </div>

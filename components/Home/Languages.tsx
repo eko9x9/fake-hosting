@@ -20,23 +20,23 @@ export default function Languages({}: Props): ReactElement {
             <div className="container flex">
                 <div className="card">
                     <h4>Node.js</h4>
-                    <Image src={NodeImg}/>
+                    <Image src={NodeImg} alt="node.js"/>
                 </div>
                 <div className="card">
                     <h4>Go</h4>
-                    <Image src={GoImg}/>
+                    <Image src={GoImg} alt="go" />
                 </div>
                 <div className="card">
                     <h4>Ruby</h4>
-                    <Image src={RubyImg}/>
+                    <Image src={RubyImg} alt="ruby" />
                 </div>
                 <div className="card">
                     <h4>Python</h4>
-                    <Image src={PythonImg}/>
+                    <Image src={PythonImg} alt="python" />
                 </div>
                 <div className="card">
                     <h4>Php</h4>
-                    <Image src={PhpImg}/>
+                    <Image src={PhpImg} alt="php" />
                 </div>
             </div>
         </section>

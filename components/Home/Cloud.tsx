@@ -16,7 +16,7 @@ export default function Cloud({}: Props): ReactElement {
                     <a href="#" className="btn btn-dark">Read More</a>
                 </div>
 
-                <Image src={CloudImg} />
+                <Image src={CloudImg} alt="cloud" />
             </div>
         </section>
     )
