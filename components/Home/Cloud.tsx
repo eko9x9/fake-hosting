@@ -9,7 +9,6 @@ interface Props {
 export default function Cloud({}: Props): ReactElement {
     return (
         <section className="cloud bg-primary my-2">
-            &apos;
             <div className="container grid">
                 <div className="text-center">
                     <h2 className="lg">Extreme Cloud Hosting</h2>
