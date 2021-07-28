@@ -7,11 +7,7 @@ import ShowCase from '../components/Home/ShowCase'
 import Stats from '../components/Home/Stats';
 import Footer from '../layout/Footer'
 
-interface Props {
-  
-}
-
-function index({}: Props): ReactElement {
+function index(): ReactElement {
   return (
     <React.Fragment>
       <Navbar />
