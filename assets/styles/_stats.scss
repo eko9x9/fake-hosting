@@ -1,0 +1,18 @@
+.stats {
+    padding-top: 100px;
+    color: black;
+
+    &--heading {
+        max-width: 500px;
+        margin: auto;
+    }
+
+    .grid--3 h3 {
+        font-size: 35px;
+    }
+
+    .grid--3 p {
+        font-size: 20px;
+        font-weight: bold;
+    }
+}

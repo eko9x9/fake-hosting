@@ -1,0 +1,55 @@
+@include respond(mobile){
+    .navbar {
+        height: 110px;
+
+        .flex {
+            flex-direction: column;
+        }
+
+        ul {
+            padding: 10px;
+            background-color: rgba($color: #000000, $alpha: 0.1);
+        }
+    }
+}
+
+@include respond(tablet) {
+
+    .grid,
+    .showcase .grid,
+    .stats .grid,
+    .cli .grid,
+    .cloud .grid {
+        grid-template-columns: 1fr;
+        grid-template-rows: 1fr;
+    }
+
+    .showcase {
+        height: auto;
+
+        &--text {
+            text-align: center;
+            margin-top: 40px;
+        }
+
+        &__form {
+            justify-self: center;
+            margin: auto;
+        }
+    }
+
+    .cli {
+        .container {
+
+        }
+
+        .grid > *:first-child {
+            grid-column: 1 ;
+            grid-row: 1 ;
+        }
+
+        .card {
+            margin-bottom: 10px;
+        }
+    }
+}
